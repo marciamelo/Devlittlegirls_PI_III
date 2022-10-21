@@ -8,7 +8,7 @@ def site_list(request):
     site = Site.objects.all()
     aluno = Aluno.objects.all()
     context = {
-        'site_list': site,
-        'aluno_list': aluno,
+        'tb_site_list': site,
+        'tb_aluno_list': aluno,
     }
     return render(request, 'site_list.html', context)
