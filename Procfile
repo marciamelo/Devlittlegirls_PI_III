@@ -1,1 +1,1 @@
-web: gunicorn Devlittlegirls_PI_III.wsgi
+web: gunicorn DevLittleGirls.wsgi --log-file -
