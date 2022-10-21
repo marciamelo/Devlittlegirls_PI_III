@@ -13,6 +13,7 @@ Django==4.0.5
 django-crispy-forms==1.14.0
 django-environ==0.9.0
 django-heroku==0.3.1
+django-on-heroku==1.1.2
 entrypoints==0.3
 gunicorn==20.1.0
 ipykernel==6.2.0
@@ -49,6 +50,7 @@ prometheus-client==0.11.0
 prompt-toolkit==3.0.20
 protobuf==4.21.8
 psycopg2==2.9.4
+psycopg2-binary==2.9.4
 py4j==0.10.9.2
 pycparser==2.20
 Pygments==2.10.0
