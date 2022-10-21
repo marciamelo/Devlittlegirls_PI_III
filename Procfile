@@ -1,0 +1,1 @@
+web: gunicorn Devlittlegirls_PI_III.wsgi
